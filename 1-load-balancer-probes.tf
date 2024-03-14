@@ -6,3 +6,4 @@ resource "azurerm_lb_probe" "region_01_load_balancer_01_probe_01" {
   protocol            = "Http"
   request_path        = "/"
 }
+####
